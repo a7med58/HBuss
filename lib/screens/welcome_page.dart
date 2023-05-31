@@ -47,7 +47,7 @@ class WelcomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Welcome Page'),
+        title: Text('Welcome IN HBuss Application'),
         actions: [
           PopupMenuButton<String>(
             onSelected: (value) {
