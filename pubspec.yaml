@@ -1,0 +1,32 @@
+name: HBuss
+description: "This A First Project By Flutter This Example For Application
+  Commpany To Traviling"
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  country_list_pick: ^1.0.0
+  dots_indicator: ^3.0.0
+  cupertino_icons: ^1.0.2
+  eva_icons_flutter: ^3.1.0
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^1.2.0
+  get: ^4.6.5
+  image_picker: ^0.8.4+4
+  transparent_image: ^2.0.1
+  url_launcher: ^6.0.9
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Schyler
+      fonts:
+        - asset: assets/fonts/Schyler.ttf
